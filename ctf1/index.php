@@ -6,13 +6,13 @@
 <body>
 <h1>C.A.T Sec CTF-1</h1>
 <div class="row">
-    <div class="large-3 column">
+    <div class="medium-3 column">
         <p style="text-align: center">ting 1</p>
     </div>
     <div class="large-6 column">
         <p style="text-align: center">ting 2</p>
     </div>
-    <div class="large-3  columns">
+    <div class="medium-3  columns">
         <p style="text-align: center">ting 3</p>
     </div>
 </div>
