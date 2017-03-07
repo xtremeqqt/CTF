@@ -1,5 +1,6 @@
 <html>
 <head>
+<link rel="stylesheet" href="css/foundation.min.css">
 <title>C.A.T Sec</title>
 </head>
 <body>
