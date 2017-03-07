@@ -1,5 +1,6 @@
 <html>
 <head>
+    <link rel="stylesheet" href="css/foundation.min.css">
 	<title>Welcome</title>
 </head>
 
