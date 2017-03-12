@@ -27,6 +27,8 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo "<p>".$row['subject']."</p>";
                 }
+            } else {
+                echo "Fail";
             }
         ?>
 
