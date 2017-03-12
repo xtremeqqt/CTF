@@ -5,7 +5,7 @@
 
     mysqli_select_db('Gratification', $conn);
 
-    $sql = "SELECT * FROM emails";
+    $sql = "SELECT * FROM 'emails'";
     $result = mysqli_query($conn, $sql);
 
 ?>
