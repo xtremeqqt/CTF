@@ -12,7 +12,7 @@ $conn->select_db('Gratification');
 </head>
 <body>
 <nav>
-    <h1 style="margin-bottom: 1em;">Enigmail</h1>
+    <h1>Enigmail</h1>
 </nav>
 <div class="row">
     <div class="large-2 column">

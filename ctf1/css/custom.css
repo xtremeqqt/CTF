@@ -1,5 +1,9 @@
 nav {
-    padding: 1em;
+    padding: 0.5em;
     background-color: #0c3d5d;
+    margin-bottom: 2em;
+}
+
+nav h1 {
     text-color: white;
 }
