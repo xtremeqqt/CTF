@@ -5,7 +5,7 @@
 
     $conn->select_db('Gratification');
 
-    $sql = "SELECT * FROM 'emails'";
+    $sql = "SELECT subject FROM emails";
     $result = $conn->query($sql);
 
 ?>
