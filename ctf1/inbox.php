@@ -25,6 +25,7 @@ $conn->select_db('Gratification');
             $email = $conn->real_escape_string($_GET['email']);
             echo $email;
             $sql = "SELECT author, subject, body FROM emails where id =". $email;
+            echo $sql;
             $result = $conn->query($sql);
             if (mysqli_num_rows($result) == 0) {
                 $row = mysqli_fetch_row($result);
