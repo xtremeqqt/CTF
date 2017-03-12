@@ -49,7 +49,7 @@ $conn->select_db('Gratification');
 
     </div>
     <div class="large-2  columns">
-        <p style="text-align: center">ting 3</p>
+        <a class="button" href="compose.php">Compose</a>
     </div>
 </div>
 </body>
