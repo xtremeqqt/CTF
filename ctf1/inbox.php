@@ -3,7 +3,7 @@
 <?php
     include_once('includes/config.php');
 
-    mysqli_select_db('Gratification', $conn);
+    $conn->select_db('Gratification');
 
     $sql = "SELECT * FROM 'emails'";
     $result = mysqli_query($conn, $sql);
