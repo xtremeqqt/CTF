@@ -7,11 +7,12 @@ $conn->select_db('Gratification');
 
 <head>
     <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/custom.css">
     <title>C.A.T Sec</title>
 </head>
 <body>
 <nav>
-    <h1 style="margin-bottom: 2em;">Enigmail</h1>
+    <h1 style="margin-bottom: 1em;">Enigmail</h1>
 </nav>
 <div class="row">
     <div class="large-2 column">
