@@ -22,7 +22,7 @@ $conn->select_db('Gratification');
     <div class="large-8 column">
         <?php
         if (isset($_GET['email'])) {
-            $email = mysqli_real_escape_string($_GET['email']);
+            $email = $conn->real_escape_string($_GET['email']);
             $sql = "SELECT author, subject, body FROM emails where id = $email";
             $result = $conn->query($sql);
             if (mysqli_num_rows($result) == 0) {
@@ -41,7 +41,7 @@ $conn->select_db('Gratification');
                 // output data of each row
                 while ($row = mysqli_fetch_assoc($result)) {
                     $id = $row['id'];
-                    echo "<a href='inbox.php?email=' . $id>" . $row['subject'] . "</a><br />";
+                    echo "<a href='inbox.php?email=$id'>" . $row['subject'] . "</a><br />";
                 }
             } else {
                 echo "Fail";
