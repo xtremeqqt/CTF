@@ -2,11 +2,7 @@
 
 <?php
 include_once('includes/config.php');
-
 $conn->select_db('Gratification');
-
-
-
 ?>
 
 <head>
@@ -14,7 +10,9 @@ $conn->select_db('Gratification');
     <title>C.A.T Sec</title>
 </head>
 <body>
-<h1>C.A.T Sec CTF-1</h1>
+<nav>
+    <h1 style="margin-bottom: 2em;">Enigmail</h1>
+</nav>
 <div class="row">
     <div class="large-2 column">
         <p style="text-align: center">ting 1</p>
@@ -38,7 +36,6 @@ $conn->select_db('Gratification');
             $sql = "SELECT id, subject FROM emails";
             $result = $conn->query($sql);
             if (mysqli_num_rows($result) > 0) {
-                // output data of each row
                 while ($row = mysqli_fetch_assoc($result)) {
                     $id = $row['id'];
                     echo "<a href='inbox.php?email=$id'>" . $row['subject'] . "</a><br />";
