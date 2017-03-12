@@ -21,12 +21,12 @@ include_once('includes/config.php');
     </div>
     <div class="large-8 column">
         <h3>Compose</h3>
-        <hr>
+        <hr style="margin: 0em;">
         <form action="" method="POST">
             <input type="text" placeholder="Subject" name="subject">
             <textarea placeholder="Message" name="body"></textarea>
             <input type="email" placeholder="Recipient Email" name="recipient">
-            <button type="submit" name="Submit">Send!</button>
+            <button class="button" type="submit" name="Submit">Send!</button>
         </form>
     </div>
     <div class="large-2 column">
