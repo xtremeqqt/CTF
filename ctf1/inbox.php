@@ -26,7 +26,7 @@ $conn->select_db('Gratification');
             $sql = "SELECT author, subject, body FROM emails where id = $email";
             $result = $conn->query($sql);
             if (mysqli_num_rows($result) == 1) {
-                $row = mysqli_fetch_row($result);
+                $row = mysqli_fetch_assoc($result);
                 echo "<h3>" . $row['subject'] . "</h3>";
                 echo "<hr>";
                 echo "<p>" . $row['body'] . "</p>";
